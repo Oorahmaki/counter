@@ -1,0 +1,63 @@
+h1{
+  font-family: "lobster";  
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  font-size: 5em;
+}
+
+h2{
+    font-family: "lobster";
+    text-align: center;
+    
+}
+.main{
+    background-image: url("background.png");
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.counterContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.kitty{
+    display: flex;
+    font-family: "lobster";
+    font-size: 4em;
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    background-color: rgb(201, 167, 204);
+    justify-content: center;
+    align-items: center;
+    border: double rgb(172, 126, 133) 10px;
+    justify-self: center;
+}
+
+.buttonContainer{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.button{
+    width: 100px;
+    font-family: "lobster";
+    font-size: 2em;
+    background-color: rgb(172, 126, 133);
+    outline-color: rgb(172, 126, 133);
+}
+
